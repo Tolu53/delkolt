@@ -39,8 +39,8 @@ const InfoSection = () => {
             <div className=''>
                 <h1 className='text-4xl md:text-7xl m-4 '> Development</h1>
             </div>
-            <div  className=' flex flex-col items-center '>
-    <div ref={ref}>
+            <div ref={ref} className=' flex flex-col items-center '>
+ 
     <motion.div  className=' my- bg-slate-5 p- flex flex-col duration-1000 md:flex-row'
            
            animate={animationL} >
@@ -53,7 +53,7 @@ const InfoSection = () => {
                    <button className='p-4 w-32 bg-black text-white hover:bg-purple-800 my-3'>See this</button>
                </div>
            </motion.div>
-    </div>
+ 
           
             <motion.div className='p- w-full duration-1000 flex flex-col my- md:flex-row-reverse items-center b-zinc-800  '
             animate= {animationR}>

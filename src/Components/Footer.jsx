@@ -3,7 +3,7 @@ import logo from '../assets/Logo.png'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-red-100'>
+    <div className='w-full '>
         {/* <div className='flex justify-center items-center p-10'>
 
             <div className='flex flex-col'>
@@ -14,7 +14,7 @@ const Footer = () => {
 
             </div>
         </div> */}
-        
+        <hr className=' h-2 '/>
     <div className='flex flex-col md:flex-row items-center justify-evenly p-10'>
         <div className=''>
 <img src={logo} alt="" />

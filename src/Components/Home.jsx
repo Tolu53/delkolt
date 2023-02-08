@@ -44,7 +44,7 @@ const nextSlide = () => {
         <div 
   style={{ backgroundImage:`url(${heroimg[currentIndex].src})` }} 
    className='w-full h-full bg-center bg-cover flex flex-col ' >  
-   <h1 className='text-4xl md:text-6xl absolute top-[50%] w-1/3  left-[10%] mx-10 translate-y-[-50%]   '>{heroimg[currentIndex].text} </h1>      
+   {/* <h1 className='text-4xl md:text-6xl absolute top-[50%] w-1/3  left-[10%] mx-10 translate-y-[-50%]   '>{heroimg[currentIndex].text} </h1>       */}
    <button className='px-6 py-4 bg-black absolute top-[60%] left-[12%]  '> see more</button>
   </div>
 
