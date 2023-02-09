@@ -17,21 +17,21 @@ const InfoSection = () => {
 
    useEffect(()=>{
     if(inView){
-        animationR.start({x:0})
+        animationR.start({y:0})
     }
     if (!inView) {
-        animationR.start({x:'200vw'})
+        animationR.start({y:-30})
     }
    },[inView]
    );
    useEffect(()=> {
     if(inView){
         // if inview = true bring in view 
-        animationL.start({x:0});}
+        animationL.start({y:0});}
         // if inview is false remove
     if(!inView){
         animationL.start({
-            x:'-100vw'});
+            y:30});
     }},[inView]);
 
     return (
